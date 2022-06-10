@@ -1,0 +1,34 @@
+[
+  {
+    "Name": "MILK (FULL CREAM)",
+    "Price": "28(bhart milk)"
+  },
+  {
+    "Name": "MILK (TOND)",
+    "Price": "22/packet"
+  },
+  {
+    "Name": "MILK (COW)",
+    "Price": "23/packet"
+  },
+  {
+    "Name": "DAHI",
+    "Price": "45/kg"
+  },
+  {
+    "Name": "CREAM",
+    "Price": "195/packet"
+  },
+  {
+    "Name": "KHOYA",
+    "Price": "40/100g"
+  },
+  {
+    "Name": "PANEER",
+    "Price": "55/250g"
+  },
+  {
+    "Name": "NOODLES",
+    "Price": "35/500gm"
+  }
+]

@@ -1,0 +1,9 @@
+.Admin {
+  margin: 0 2rem;
+}
+
+@media (max-width: 900px) {
+  .Admin h1 {
+    text-align: center;
+  }
+}

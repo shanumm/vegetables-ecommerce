@@ -1,0 +1,38 @@
+.category-card {
+  min-height: 50vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+}
+h1 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .category-card {
+    min-height: 20vh;
+  }
+}
+
+@media (max-width: 540px) {
+  .category-card {
+    min-height: 15vh;
+
+  }
+  .card{
+    width: 10rem;
+    height: 8rem
+  } 
+  .card-text{
+    font-size: 90%;
+    padding-top: .5rem;
+  }
+  .card{
+    flex: 0 1 15rem;
+  }
+}

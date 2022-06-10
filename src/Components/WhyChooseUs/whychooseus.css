@@ -1,0 +1,100 @@
+.whyChooseUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f1eaea;
+}
+
+.whychooseusHeading {
+  margin-top: 2rem;
+  text-align: center;
+}
+.whychooseusHeading h4 {
+  color: green;
+  margin: 0.6rem 0;
+  position: relative;
+}
+
+.whychooseusHeading h4::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  width: 3rem;
+  height: 1px;
+  margin: 0 0.4rem;
+  background: green;
+}
+
+.whychooseusHeading h4::before {
+  position: absolute;
+  content: "";
+  margin: 0 0.4rem;
+  top: 50%;
+  right: 70%;
+  width: 3rem;
+  height: 1px;
+  background: green;
+}
+
+.whyChooseUsContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.whyChooseUsContent > div {
+  flex: 1 1 20rem;
+}
+.whyChooseUsContentLeft img,
+.whyChooseUsContentRight img {
+  width: 4rem;
+  margin: 0 1rem;
+  object-fit: contain;
+}
+
+.whyChooseUsContentImg img {
+  width: 100%;
+}
+
+.whyChooseUsContentLeft {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}
+.whyChooseUsContentRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.whyChooseUsContentLeft > div,
+.whyChooseUsContentRight > div {
+  display: flex;
+  align-items: center;
+}
+
+.whyChooseUsContentLeft > div {
+  flex-direction: row-reverse;
+}
+@media (max-width: 900px) {
+  .whyChooseUsContentLeft,
+  .whyChooseUsContentRight {
+    align-items: center;
+    justify-content: center;
+  }
+  .whyChooseUsContentImg {
+    display: none;
+  }
+  .whyChooseUsContent {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  .whyChooseUsContentLeft img,
+  .whyChooseUsContentRight img {
+    width: 2rem;
+  }
+  .whyChooseUs {
+    padding: 1rem 0;
+    font-size: 90%;
+  }
+}

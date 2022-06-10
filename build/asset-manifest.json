@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5d13f0b.css",
+    "main.js": "/static/js/main.e9c76cbc.js",
+    "static/js/787.9c48c142.chunk.js": "/static/js/787.9c48c142.chunk.js",
+    "static/media/tomato.png": "/static/media/tomato.e1ad346652c56714925e.png",
+    "static/media/vegebag.png": "/static/media/vegebag.0b8582f9c54308253c0c.png",
+    "static/media/aboutvegetable.png": "/static/media/aboutvegetable.d3395c8fcf634f5d0de9.png",
+    "static/media/7.png": "/static/media/7.4a4d7cc27ef6528f542c.png",
+    "static/media/farmer.png": "/static/media/farmer.565332106242fd790d8a.png",
+    "static/media/strawberry.png": "/static/media/strawberry.8ec7fc68ff9f77599d41.png",
+    "static/media/broccoli.png": "/static/media/broccoli.d577bf742ba919305636.png",
+    "static/media/discount.png": "/static/media/discount.2f907620c5d0b76875ee.png",
+    "static/media/dairy.png": "/static/media/dairy.13d18b58fb34da1a4f67.png",
+    "static/media/checked.png": "/static/media/checked.6f298cca57a5a8b36055.png",
+    "index.html": "/index.html",
+    "main.a5d13f0b.css.map": "/static/css/main.a5d13f0b.css.map",
+    "main.e9c76cbc.js.map": "/static/js/main.e9c76cbc.js.map",
+    "787.9c48c142.chunk.js.map": "/static/js/787.9c48c142.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5d13f0b.css",
+    "static/js/main.e9c76cbc.js"
+  ]
+}

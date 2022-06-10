@@ -1,0 +1,109 @@
+.about {
+  min-height: 60vh;
+}
+
+.aboutTop {
+  width: 95%;
+  margin: 2rem auto;
+  min-height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background:#ffffff71;
+}
+
+.aboutTopContent {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.aboutTopContent h3 {
+  font-size: 2rem;
+  margin: 0 0 0 2rem;
+}
+
+.aboutTopContent p {
+  width: 90%;
+  margin: 0 0 0 2rem;
+}
+
+.aboutTopContent button {
+  margin: 1rem 0 0 2rem;
+  border: none;
+  background: black;
+  color: white;
+  outline: none;
+  border-radius: 25px;
+  padding: 0.8rem 1rem;
+}
+
+.aboutBottom {
+  min-height: 50vh;
+  margin: 2rem 0;
+}
+
+.aboutBottomHeading {
+  font-size: 2rem;
+  text-align: center;
+}
+.aboutBottomHeading span {
+  color: green;
+}
+.aboutBottomContent {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+
+.aboutBottomContent h3 {
+  margin: 2rem;
+  text-transform: uppercase;
+}
+.aboutBottomContent p {
+  width: 40%;
+  margin: 2rem 0 3rem 2rem;
+}
+
+.aboutBottomContent img {
+  width: 35rem;
+  height: 20rem;
+  object-fit: cover;
+  position: absolute;
+}
+
+.aboutBottomContent img:nth-of-type(1) {
+  top: 0;
+  right: 0;
+}
+.aboutBottomContent img:nth-of-type(2) {
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 900px) {
+  .aboutTop > div {
+    flex: 1 1 20rem;
+  }
+
+  @media (max-width: 900px) {
+    .aboutBottomContent img {
+      display: none;
+    }
+
+    .about {
+      min-height: 50vh;
+    }
+    .aboutBottomContent {
+      height: auto;
+    }
+    .aboutBottomContent p {
+      width: 80%;
+    }
+    .aboutTopImage {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+    {
+      "Fruits": "APPLE",
+      "Price": "60/500g"
+    },
+    {
+      "Fruits": "ORANGE",
+      "Price": "40/500g"
+    },
+    {
+      "Fruits": "BANANA(KELA)",
+      "Price": "45/12pic"
+    },
+    {
+      "Fruits": "PAPAYA (PAPITA)",
+      "Price": "35/kg"
+    },
+    {
+      "Fruits": "pomegranet",
+      "Price": "110/kg"
+    },
+    {
+      "Fruits": "COCONUT",
+      "Price": "40/pis"
+    }
+   ]

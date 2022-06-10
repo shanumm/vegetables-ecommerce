@@ -1,0 +1,124 @@
+.payment {
+  background-color: white;
+}
+.payment_container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px soild lightgray;
+}
+.payment_container > h1 a {
+  text-decoration: none;
+}
+.payment_section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  flex-direction: column;
+  border-bottom: 1px solid lightgray;
+}
+.payment_title {
+  flex: 0.2;
+}
+.payment_address,
+.payment_items,
+.payment_details {
+  flex: 0.8;
+}
+
+.payment_details form {
+  max-width: 400px;
+}
+
+.payment_details h3 {
+  padding: 20px 0;
+}
+
+.payment_details > form > div > button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+
+.addressform > label {
+  font-size: 1rem !important;
+}
+.addressform > input {
+  width: 20rem !important ;
+}
+
+.submit_area {
+  width: 12rem;
+  margin: 1rem 0;
+  background: #f0c14b;
+  border-radius: 2px;
+  height: 40px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.applyCoupon {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  border-bottom: 1px solid grey;
+  margin: 0 0 1rem 0;
+}
+
+.applyCoupon > div {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  padding: 1rem 0;
+}
+
+.applyCoupon label {
+  font-size: 1.5rem;
+  /* margin: 1rem 0; */
+}
+
+.applyCoupon button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 10rem;
+  height: 30px;
+  border: 1px solid;
+}
+
+.accordianItem1 > div,
+.accordianItem2 > div {
+  /* max-height: 0; */
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.activeAccordianItem {
+  max-height: 25rem !important;
+}
+
+.accordianItem1 li,
+.accordianItem2 li {
+  font-size: 1rem;
+  color: blue;
+  text-decoration: underline;
+  list-style: circle;
+}
+
+.accordianItem2 button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 10rem;
+  height: 30px;
+  border: 1px solid;
+}
+
+.accordianItem2button{
+  margin: 1rem 0;
+}

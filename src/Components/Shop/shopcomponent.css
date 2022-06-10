@@ -1,0 +1,117 @@
+.shopcomponent {
+  width: 12rem;
+  min-height: 17rem;
+  border: 1px solid rgba(173, 173, 173, 0.603);
+  margin: 0 1rem;
+  padding: 0 0 0.5rem 0;
+}
+
+.shop-component-image {
+  position: relative;
+  height: 8rem;
+}
+.shop-component-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.shop-component-desc {
+  margin-left: 1rem;
+  color: rgb(196, 196, 196);
+}
+
+.shop-component-desc > div p {
+  color: rgb(77, 77, 77);
+  text-align: center;
+}
+
+.shop-component-review,
+.shop-component-title,
+.shop-component-price,
+.shop-component-button {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.shop-component-title {
+  min-height: 5vh;
+}
+
+.shop-component-review::after,
+.shop-component-title::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: rgba(128, 128, 128, 0.3);
+  bottom: 0;
+  left: 0;
+}
+
+.shop-component-price {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.shop-component-price > div {
+  color: red;
+}
+.shop-component-button {
+  justify-content: center;
+}
+.shop-component-button button {
+  /* border: none;
+  outline: none;
+  padding: 0.8rem 3rem;
+  border-radius: 25px;
+  cursor: pointer;
+  background: #34be82; */
+  background: #bff2be;
+  border: none;
+  outline: none;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+}
+
+.shop-component-button button:hover {
+  background: rgba(63, 63, 63, 0.3);
+}
+
+@media (max-width: 900px) {
+  .shopcomponent {
+    width: 12rem;
+    min-height: 17rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .shopcomponent {
+    height: auto;
+    margin: 0 0;
+    width: 10rem;
+    border-radius: 0;
+    min-height: 0;
+  }
+  .shop-component-button button {
+    padding: 0.6rem 1.2rem;
+    font-size: 80%;
+    margin-top: 0.4rem;
+  }
+  .shop-component-image {
+    width: 60%;
+    margin: auto;
+  }
+  .shop-component-title,
+  .shop-component-desc {
+    font-size: 70%;
+  }
+  .shop-component-price {
+    margin: 0 0;
+  }
+}

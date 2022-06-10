@@ -1,0 +1,104 @@
+.categoryIndividualProduct {
+  width: 12rem;
+  min-height: 17rem;
+  margin: 1rem;
+  padding: 0.5rem 0;
+  border: 1px solid rgba(173, 173, 173, 0.603);
+}
+
+.categoryIndividualProductTitle {
+  text-transform: uppercase;
+}
+
+.quantityAddCartCategoryButton > button {
+  background: #bff2be;
+  border: none;
+  outline: none;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+}
+.categoryIndividualProductImage {
+  position: relative;
+  height: 8rem;
+}
+
+.discountImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+  transform: rotateZ(-45deg);
+  transform-origin: center;
+}
+
+.discountImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.categoryIndividualProductImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.categoryIndividualProductContent {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryIndividualProductTitle {
+  width: 100%;
+  text-align: center;
+}
+
+.categoryIndividualProductPrice {
+  margin: 1rem 0;
+}
+
+.catchSpicesPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+.categoryIndividualProductPrice {
+  color: green;
+}
+.catchSpicesPrice h5 {
+  font-weight: 400;
+  text-decoration: line-through;
+  margin: 0 0.3rem;
+  color: red;
+}
+
+.quantityAddCartCategoryButton {
+  display: flex;
+}
+.quantityAddCartCategoryButton > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.quantityAddCartCategoryButton > div button {
+  border: none;
+  margin: 0 0.4rem 0.4rem 0;
+  outline: none;
+  padding: 0 .2rem;
+}
+
+@media (max-width: 900px) {
+  .categoryIndividualProduct {
+    width: 10rem;
+    min-height: 15rem;
+    margin: .5rem;
+    padding: 0.5rem 0;
+    flex: 0.5 1 8rem;
+    border: 1px solid rgba(173, 173, 173, 0.603);
+  }
+}

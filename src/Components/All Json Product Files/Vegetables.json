@@ -1,0 +1,263 @@
+[
+  {
+    "NAME": "POTATO(AALU) New",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": null,
+      "1kg": 18
+    }
+  },
+  {
+    "NAME": "POTATO, OLD",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": null,
+      "1kg": 15
+    }
+  },
+  {
+    "NAME": "ONION (PIYAJ), Big size",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": null,
+      "1kg": 40
+    }
+  },
+  {
+    "NAME": "ONION, MEDIUM",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": null,
+      "1kg": 32
+    }
+  },
+  {
+    "NAME": "ONION, SMALL",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": null,
+      "1kg": 28
+    }
+  },
+  {
+    "NAME": "TOMATO(TAMATAR), DESI",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 15,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "TOMATO, HYBRID",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 17,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "GARLIC(LAHSUN)",
+    "Price": {
+      "100gm": null,
+      "250gm": 20,
+      "500g": null,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "GINGER ( ADARAK)",
+    "Price": {
+      "100gm": null,
+      "250gm": 16,
+      "500g": null,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "LEMON (NIMBU)",
+    "Price": {
+      "100gm": null,
+      "250gm": 18,
+      "500g": null,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "GREEN CHILLI (MIRCHI)",
+    "Price": {
+      "100gm": 10,
+      "250gm": null,
+      "500g": null,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "GREEN  DHANIYA",
+    "Price": {
+      "100gm": 8,
+      "250gm": null,
+      "500g": null,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "BRINJAL (BEGAN) round",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 20,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "BRINJAL, long",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 22,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "BEANS",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 35,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "CABBAGE (PATTA GOVI)",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 25,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "COLIFLOWER (FULL GOVI",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 25,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "CAPSICUM( SIMLA MIRCH), GREEN",
+    "Price": {
+      "100gm": null,
+      "250gm": 15,
+      "500g": null,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "SIMLA, RED & YELLOW",
+    "Price": {
+      "100gm": null,
+      "250gm": 100,
+      "500g": null,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "CARROT, RED",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 20,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "CARROT, ORANGE(PILI)",
+    "Price": {
+      "100gm": null,
+      "250gm": 25,
+      "500g": null,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "CUCUMBER(KHIRA)",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 20,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "GHIYA(LOKI)",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 25,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "PAMPKIN( SITA FAL)",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 25,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "DONE (KARELA)",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 40,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "TORAI",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 35,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "PARWAL",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 35,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "BEET ROOT(CHUKUNDR",
+    "Price": {
+      "100gm": null,
+      "250gm": null,
+      "500g": 20,
+      "1kg": null
+    }
+  },
+  {
+    "NAME": "ARBI",
+    "Price": {
+      "100gm": null,
+      "250gm": 10,
+      "500g": null,
+      "1kg": null
+    }
+  }
+]

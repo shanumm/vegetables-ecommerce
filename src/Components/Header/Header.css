@@ -1,0 +1,299 @@
+.headerContainer {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+}
+
+.header_logo {
+  object-fit: contain;
+  height: 100%;
+  width: 12rem;
+  margin-top: 1rem;
+}
+
+.navbar {
+  width: 60%;
+}
+
+.navlinks {
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.navlinks li {
+  list-style: none;
+}
+
+.headerOptions {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+}
+
+.header_login img {
+  width: 2rem;
+}
+
+.header_login:hover .headerSignIn {
+  background: rgb(240, 240, 240);
+  display: block;
+}
+
+.headerSignIn {
+  display: none;
+  position: absolute;
+  width: 10rem;
+  padding: 0.5rem;
+  background: white;
+  transform: translateY(2rem);
+}
+
+.burgerLinks {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 100vh;
+  background: #4f5660;
+  z-index: 1000;
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.burgerLinksactive {
+  transform: translateX(0);
+}
+
+.Burgernavbar {
+  min-height: 10vh;
+  font-size: 1.2rem;
+}
+
+.burgerLinksLoginDiv {
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+  background: #484d53;
+}
+
+.burgerLinksLoginDiv span {
+  margin: 0 0 1rem 1rem;
+}
+
+.Burgernavlinks {
+  padding: 1rem 0;
+  min-height: 50vh;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 90%;
+  margin: 1rem auto;
+}
+.Burgernavlinks > a {
+  display: flex;
+  align-items: center;
+}
+.Burgernavlinks > a i {
+  color: white;
+}
+
+.Burgernavlinks > a li {
+  color: white;
+  margin: 0 0.5rem;
+  width: 100%;
+}
+
+.BurgerheaderOptions {
+  margin: 1rem 0 0 1rem;
+  color: white;
+}
+
+.Burgerheader_login {
+  margin: 1rem 0;
+}
+.BurgerheaderOptions * {
+  color: white;
+}
+
+.Burgerheader_login span img {
+  width: 2rem;
+}
+
+.burgerRightSide {
+  display: none;
+}
+.header > div:nth-of-type(1) {
+  display: none;
+}
+
+.searching {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+}
+
+.searchHeader  * {
+  display: none;
+}
+.searchHeader {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 0;
+  min-height: 0;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.activeSearchHeader {
+  min-height: 10vh;
+}
+.allcategorysearchHeader {
+  border: none;
+  outline: none;
+  margin: 1rem;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  width: 50%;
+  border-radius: 25px;
+  background: rgb(209, 209, 209);
+}
+.searchHeaderInputField {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.searchedHeaderResultField {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  width: 50%;
+  max-height: 40vh;
+  overflow-y: scroll;
+  position: absolute;
+  top: 100%;
+  background: white;
+  z-index: 10000000;
+}
+.searchedProduct > a {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.searchedProduct img {
+  width: 2rem;
+  object-fit: contain;
+  height: 2rem;
+}
+
+@media (max-width: 900px) {
+  .searchHeaderInputField {
+    align-items: flex-start;
+  }
+  .searchHeader {
+    display: none;
+    align-items: flex-start;
+  }
+  .searchedHeaderResultField {
+    width: 100%;
+  }
+  .searching {
+    width: 100%;
+  }
+  .navbar,
+  .headerOptions {
+    display: none;
+  }
+  .home {
+    height: auto !important;
+  }
+  .header > div {
+    flex: 1 1 10rem;
+  }
+  .burgerLinks {
+    display: block;
+  }
+  .burgerRightSide {
+    display: block;
+  }
+  .header > div:nth-of-type(1) {
+    display: block;
+    width: 1rem;
+  }
+  .BurgerheaderOptions {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 !important;
+  }
+  .BurgerheaderSignIn * {
+    color: black;
+  }
+  .BurgerheaderSignIn {
+    width: 3rem;
+  }
+  .BurgerheaderSignIn > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70%;
+    width: 100%;
+  }
+  .BurgerheaderOptions * {
+    color: black;
+    font-size: 95%;
+  }
+
+  .Burgerheader_login span img {
+    width: 1.5rem;
+  }
+  .Burgerheader_login:nth-of-type(2) {
+    padding: 0 0.5rem;
+  }
+  .Burgerheader_login:nth-of-type(2) a {
+    display: flex;
+    align-items: center;
+  }
+
+  .Burgernavlinks > a {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .header_logo {
+    width: 10rem;
+  }
+}

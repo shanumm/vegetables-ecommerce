@@ -1,0 +1,74 @@
+.individualorder {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 3px solid rgb(85, 85, 85);
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.individualOrderItems {
+  display: flex;
+  align-items: center;
+}
+
+.individualOrderItems > * {
+  flex: 1 1 10rem;
+}
+.individualOrderItems > div {
+  display: flex;
+  margin: 0 0.5rem 0 0;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.individualOrderItems > div div {
+  margin: 0 0.3rem;
+  font-size: 80%;
+}
+
+.individualOrderItems h4 {
+  margin: 0 1rem;
+  width: 10rem;
+}
+
+.individualorder > div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.individualorder > div > div {
+  height: 1rem;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.updateStatusForm > h4 {
+  margin: 1rem;
+  width: 10rem;
+}
+
+.updateStatusForm form {
+  min-height: 10vh;
+}
+@media (max-width: 900px) {
+  .individualorder {
+    font-size: 70%;
+  }
+
+  .individualorder > div > div {
+    height: 1rem;
+    width: 10rem;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 1rem;
+  }
+
+  .individualorder > div {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
